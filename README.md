@@ -13,9 +13,9 @@ With the Twitch Toolkit mod:
 
 ## Events
 
-`!buyevent medievalpursuit`
+- `!buyevent medievalpursuit`
   - All medieval raid from a guaranteed rough kingdom
-`!buyevent medievaltournyquest`
+- `!buyevent medievaltournyquest`
   - Medieval tournament to gain skills and items. World event
-`!buyevent castleruinsquest`
+- `!buyevent castleruinsquest`
   - Ruins of a castle to explore for fame and fortune. World event

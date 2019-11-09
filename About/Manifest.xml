@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+  <identifier>ToolkitVFEMedievalPatch</identifier>
+  <version>1.0.0</version>
+  <dependencies>
+    <li>TwitchToolkit</li>
+	<li>VanillaFactionsExpandedCore</li>
+    <li>VanillaFactionsExpandedMedieval</li>
+  </dependencies>
+  <incompatibleWith />
+  <loadAfter>
+	<li>VanillaFactionsExpandedCore</li>
+    <li>VanillaFactionsExpandedMedieval</li>
+    <li>TwitchToolkit</li>
+  </loadAfter>
+</Manifest>

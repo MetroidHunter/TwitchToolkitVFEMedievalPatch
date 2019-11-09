@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>MedievalPursuitParty</defName>
+    <label>medieval pursuit party</label>
+    <abbreviation>medievalpursuit</abbreviation>
+    <cost>3000</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitVFEMedievalPatch.IncidentHelper_VFEM_PursuitParty</incidentHelper>
+    <karmaType>Bad</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+  
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>MedievalTournament</defName>
+    <label>medieval tournament</label>
+    <abbreviation>medievaltournyquest</abbreviation>
+    <cost>10000</cost>
+    <eventCap>1</eventCap>
+    <incidentHelper>ToolkitVFEMedievalPatch.IncidentHelper_VFEM_Quest_MedievalTournament</incidentHelper>
+    <karmaType>Good</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+  
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>CastleRuins</defName>
+    <label>castle ruins</label>
+    <abbreviation>castleruinsquest</abbreviation>
+    <cost>10000</cost>
+    <eventCap>1</eventCap>
+    <incidentHelper>ToolkitVFEMedievalPatch.IncidentHelper_VFEM_Quest_CastleRuins</incidentHelper>
+    <karmaType>Good</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+</Defs>

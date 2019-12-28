@@ -1,4 +1,5 @@
 ﻿using Verse;
+using ToolkitPatchLib;
 
 namespace ToolkitVFEMedievalPatch
 {
@@ -6,6 +7,7 @@ namespace ToolkitVFEMedievalPatch
     {
         public ToolkitVFEMedievalPatch(ModContentPack content) : base(content)
         {
+            Logger.LOGGERNAME = "TVFEM";
         }
 
         public override string SettingsCategory() => "Toolkit VFE Medieval Patch";

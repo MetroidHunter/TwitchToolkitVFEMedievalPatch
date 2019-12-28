@@ -43,6 +43,10 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="ToolkitPatchLib">
+      <HintPath>Z:\SteamLibrary\steamapps\common\RimWorld\Mods\ToolkitPatchLib\Assemblies\ToolkitPatchLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\..\TwitchToolkit\UnityEngine.dll</HintPath>
       <Private>False</Private>
@@ -61,9 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IncidentHelpers.cs" />
-    <Compile Include="NormalIncidentHelper.cs" />
     <Compile Include="ToolkitVFEMedievalPatch.cs" />
-    <Compile Include="WagerIncidentHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\TwitchToolkit\TwitchToolkit\TwitchToolkit.csproj">

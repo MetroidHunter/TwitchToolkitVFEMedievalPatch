@@ -9,6 +9,16 @@
     <incidentHelper>ToolkitVFEMedievalPatch.IncidentHelper_VFEM_PursuitParty</incidentHelper>
     <karmaType>Bad</karmaType>
   </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>MedievalPursuitParty</defName>
+    <label>medieval pursuit party</label>
+    <weight>2</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Bad</eventType>
+    <eventCategory>Invasion</eventCategory>
+    <votingHelper>ToolkitVFEMedievalPatch.VoteHelper_VFEM_PursuitParty</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
   
   <TwitchToolkit.Incidents.StoreIncidentSimple>
     <defName>MedievalTournament</defName>
@@ -19,6 +29,16 @@
     <incidentHelper>ToolkitVFEMedievalPatch.IncidentHelper_VFEM_Quest_MedievalTournament</incidentHelper>
     <karmaType>Good</karmaType>
   </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>MedievalTournament</defName>
+    <label>medieval tournament</label>
+    <weight>3</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Neutral</eventType>
+    <eventCategory>Environment</eventCategory>
+    <votingHelper>ToolkitVFEMedievalPatch.VoteHelper_VFEM_Quest_MedievalTournament</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
   
   <TwitchToolkit.Incidents.StoreIncidentSimple>
     <defName>CastleRuins</defName>
@@ -29,4 +49,14 @@
     <incidentHelper>ToolkitVFEMedievalPatch.IncidentHelper_VFEM_Quest_CastleRuins</incidentHelper>
     <karmaType>Good</karmaType>
   </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>CastleRuins</defName>
+    <label>castle ruins</label>
+    <weight>4</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Neutral</eventType>
+    <eventCategory>Environment</eventCategory>
+    <votingHelper>ToolkitVFEMedievalPatch.VoteHelper_VFEM_Quest_CastleRuins</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
 </Defs>

@@ -4,6 +4,7 @@
   <version>1.0.0</version>
   <dependencies>
     <li>TwitchToolkit</li>
+    <li>ToolkitPatchLib</li>
 	<li>VanillaFactionsExpandedCore</li>
     <li>VanillaFactionsExpandedMedieval</li>
   </dependencies>
@@ -12,5 +13,6 @@
 	<li>VanillaFactionsExpandedCore</li>
     <li>VanillaFactionsExpandedMedieval</li>
     <li>TwitchToolkit</li>
+    <li>ToolkitPatchLib</li>
   </loadAfter>
 </Manifest>

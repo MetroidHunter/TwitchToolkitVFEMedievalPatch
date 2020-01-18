@@ -1,5 +1,6 @@
 ﻿using RimWorld;
 using ToolkitPatchLib;
+using Verse;
 using VFECore;
 using VFEMedieval;
 
@@ -17,7 +18,7 @@ namespace ToolkitVFEMedievalPatch
 
     public class IncidentHelper_VFEM_Quest_MedievalTournament : NormalIncidentHelper<IncidentWorker_QuestMedievalTournament>
     {
-        public IncidentHelper_VFEM_Quest_MedievalTournament() : base(IncidentCategoryDefOf.WorldQuest, IncidentDef.Named("VFEM_Quest_MedievalTournament")) { }
+        public IncidentHelper_VFEM_Quest_MedievalTournament() : base(IncidentCategoryDefOf.WorldQuest, IncidentDef.Named("VFEM_Quest_MedievalTournament"), Find.World) { }
     }
 
     public class VoteHelper_VFEM_Quest_MedievalTournament : BasicVotingHelper<IncidentWorker_QuestMedievalTournament>
@@ -27,7 +28,7 @@ namespace ToolkitVFEMedievalPatch
 
     public class IncidentHelper_VFEM_Quest_CastleRuins : NormalIncidentHelper<IncidentWorker_QuestCastleRuins>
     {
-        public IncidentHelper_VFEM_Quest_CastleRuins() : base(IncidentCategoryDefOf.WorldQuest, IncidentDef.Named("VFEM_Quest_CastleRuins")) { }
+        public IncidentHelper_VFEM_Quest_CastleRuins() : base(IncidentCategoryDefOf.WorldQuest, IncidentDef.Named("VFEM_Quest_CastleRuins"), Find.World) { }
     }
 
     public class VoteHelper_VFEM_Quest_CastleRuins : BasicVotingHelper<IncidentWorker_QuestCastleRuins>

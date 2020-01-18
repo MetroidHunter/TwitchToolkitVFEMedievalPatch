@@ -43,10 +43,6 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="ToolkitPatchLib">
-      <HintPath>Z:\SteamLibrary\steamapps\common\RimWorld\Mods\ToolkitPatchLib\Assemblies\ToolkitPatchLib.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\..\TwitchToolkit\UnityEngine.dll</HintPath>
       <Private>False</Private>
@@ -68,6 +64,11 @@
     <Compile Include="ToolkitVFEMedievalPatch.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ToolkitPatchLib\Source\ToolkitPatchLib.csproj">
+      <Project>{2ba8c4e1-3f4b-4e53-ab42-3e5f93721936}</Project>
+      <Name>ToolkitPatchLib</Name>
+      <Private>False</Private>
+    </ProjectReference>
     <ProjectReference Include="..\..\TwitchToolkit\TwitchToolkit\TwitchToolkit.csproj">
       <Project>{358d961a-2fb9-49a0-87bb-af72a4bc1d29}</Project>
       <Name>TwitchToolkit</Name>

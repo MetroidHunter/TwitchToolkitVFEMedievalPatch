@@ -7,7 +7,7 @@ namespace ToolkitVFEMedievalPatch
     {
         public ToolkitVFEMedievalPatch(ModContentPack content) : base(content)
         {
-            Logger.LOGGERNAME = "TVFEM";
+            ToolkitPatchLogger.LOGGERNAME = "TVFEM";
         }
 
         public override string SettingsCategory() => "Toolkit VFE Medieval Patch";
